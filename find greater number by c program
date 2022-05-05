@@ -1,0 +1,32 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+  float a,b,c;
+   printf("enter the value of a = ");
+   scanf("%f", &a);
+   printf("enter the value  of b =");
+   scanf("%f", &b);
+   printf("enter the value of c =");
+   scanf("%f", &c);
+   if (a>b){
+       printf("a is greater than b \n ");
+  }
+  else{
+      printf("b is greater than a\n");
+  }
+  if (a>c){
+      printf("a is greater than c\n");
+  }
+  else{
+      printf("c is greater than a\n");
+  }
+  if(c>b){
+      printf("c is greater than b \n");
+  }
+  else{
+      printf("b is greater than c\n");
+  }
+    return 0;
+}
